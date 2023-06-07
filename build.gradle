@@ -2,13 +2,21 @@ plugins {
     id 'java'
 }
 
-group 'chon.group'
+group 'com.github.chon-group'
 version '1.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
 
 repositories {
     mavenCentral()
     maven { url "https://jitpack.io" }
     maven { url "https://raw.githubusercontent.com/jacamo-lang/mvn-repo/master" }
+    maven { url "https://repo.gradle.org/gradle/libs-releases" }
+
 }
 
 dependencies {
