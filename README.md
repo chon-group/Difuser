@@ -74,10 +74,7 @@ Status = off | Status = timeout <-
 sudo chmod 777 /dev/ttyACM0
 jason helloArgo/helloArgo.mas2j
 ```
-
-
-
-
+![argoJason](https://github.com/chon-group/argo/assets/32855001/5d7a6110-3dd2-4d05-8ae2-c995357e1baa)
 
 ## COPYRIGHT
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Argo is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. The licensor cannot revoke these freedoms as long as you follow the license terms:
