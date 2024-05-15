@@ -22,7 +22,7 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-    implementation 'com.github.chon-group:javino:1.6.1'
+    implementation 'com.github.chon-group:javino:1.6.2'
     //implementation 'io.github.jason-lang:jason-interpreter:3.2.0'
     implementation 'io.github.jason-lang:jason-interpreter:3.3.0-SNAPSHOT'
 }
