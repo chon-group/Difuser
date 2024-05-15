@@ -1,11 +1,11 @@
-package argo;
+package group.chon.agent.argo.jasonStdLib;
 
 import jason.asSemantics.DefaultInternalAction;
 import jason.asSemantics.TransitionSystem;
 import jason.asSemantics.Unifier;
 import jason.asSyntax.Term;
 import jason.asSyntax.Literal;
-import jason.Argo;
+import group.chon.agent.argo.Argo;
 
 
 public class act extends DefaultInternalAction {
@@ -17,7 +17,7 @@ public class act extends DefaultInternalAction {
     @Override
     public Object execute(TransitionSystem ts, Unifier un, Term[] args) throws Exception {
 
-         final Argo argoArch = Argo.getArgoArch(ts.getUserAgArch());
+         final Argo argoArch = Argo.getArgoArch(ts.getAgArch());
             if (argoArch != null) {
                 Term action = args[0];
                 if (argoArch.getJavino().sendCommand(argoArch.getPort(), action.toString())) {

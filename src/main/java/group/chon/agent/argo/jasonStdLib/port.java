@@ -1,10 +1,10 @@
-package argo;
+package group.chon.agent.argo.jasonStdLib;
 
 import jason.asSemantics.DefaultInternalAction;
 import jason.asSemantics.TransitionSystem;
 import jason.asSemantics.Unifier;
 import jason.asSyntax.Term;
-import jason.Argo;
+import group.chon.agent.argo.Argo;
 
 public class port extends DefaultInternalAction {
 
@@ -12,7 +12,7 @@ public class port extends DefaultInternalAction {
 
     @Override
     public Object execute(TransitionSystem ts, Unifier un, Term[] args) throws Exception {
-        final Argo argoArch = Argo.getArgoArch(ts.getUserAgArch());
+        final Argo argoArch = Argo.getArgoArch(ts.getAgArch());
         if (argoArch != null) {
             Term illoc = args[0];
             String os = System.getProperty("os.name");

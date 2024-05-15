@@ -1,17 +1,17 @@
-package argo;
+package group.chon.agent.argo.jasonStdLib;
 
 import jason.asSemantics.DefaultInternalAction;
 import jason.asSemantics.TransitionSystem;
 import jason.asSemantics.Unifier;
 import jason.asSyntax.Term;
-import jason.Argo;
+import group.chon.agent.argo.Argo;
 
 public class percepts extends DefaultInternalAction {
 
     private static final long serialVersionUID = -4841692752581197132L;
     @Override
     public Object execute(TransitionSystem ts, Unifier un, Term[] args) throws Exception {
-        final Argo argoArch = Argo.getArgoArch(ts.getUserAgArch());
+        final Argo argoArch = Argo.getArgoArch(ts.getAgArch());
         if (argoArch != null) {
             if (args[0].toString().equals("block") || args[0].toString().equals("close") ) {
                 argoArch.setBlocked(true);
