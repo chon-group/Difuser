@@ -5,7 +5,7 @@ ARGO is a customized [Jason](https://github.com/jason-lang/jason) agent architec
 
 ![](https://raw.githubusercontent.com/wiki/chon-group/Argo/.imgs/argoRepoCover.png)
 
-
+---
 ### Argo FAQ (Frequently asked question):
 - How to use the ARGO in a Jason project: [Argo Library for Jason](https://github.com/chon-group/Argo/wiki/Importing-to-Jason)
 
@@ -13,8 +13,8 @@ ARGO is a customized [Jason](https://github.com/jason-lang/jason) agent architec
 
 - For more information: See the [__ARGO Wiki__](https://github.com/chon-group/Argo/wiki).
 
-
-## COPYRIGHT
+---
+### COPYRIGHT
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Argo is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. The licensor cannot revoke these freedoms as long as you follow the license terms:
 
 * __Attribution__ — You must give __appropriate credit__ like below:
