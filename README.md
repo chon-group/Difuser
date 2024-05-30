@@ -1,5 +1,5 @@
 # ARGO BDI-agent Architecture
-[![](https://jitpack.io/v/chon-group/argo.svg)](https://jitpack.io/#chon-group/argo)
+[![](https://jitpack.io/v/chon-group/Argo.svg)](https://jitpack.io/#chon-group/Argo)
 
 ARGO is a customized [Jason](https://github.com/jason-lang/jason) agent architecture, capable of sensing and acting directly in the exogenous environment (physical world) over the [Javino](https://github.com/chon-group/Javino) serial communication protocol.
 
